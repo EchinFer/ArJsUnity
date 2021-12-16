@@ -38,6 +38,7 @@
       let enterVRButton = document.getElementById('entervr');
       
       document.addEventListener('onARSupportedCheck', function (event) {
+        console.log(event.detail.supported);
         enterARButton.disabled = !event.detail.supported;
       }, false);
       document.addEventListener('onVRSupportedCheck', function (event) {
