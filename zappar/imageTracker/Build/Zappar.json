@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Universal AR Prueba 2",
+"productVersion": "0.1",
+"dataUrl": "Zappar.data.unityweb",
+"wasmCodeUrl": "Zappar.wasm.code.unityweb",
+"wasmFrameworkUrl": "Zappar.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.33f1"
+}
